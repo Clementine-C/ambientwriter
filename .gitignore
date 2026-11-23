@@ -1,0 +1,27 @@
+# 上游插件的本地检出（300+ MB，用 patches/ 还原，不入库）
+word-gpt-plus/
+
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+build/
+*.spec
+__pycache__/
+*.py[cod]
+.venv/
+
+# 运行期 / 调试产物
+*.log
+tools/ui-check/shot-*.png
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Word ���ļ�
+~\$*
+

@@ -1,0 +1,7 @@
+﻿# 文本统一 LF；.cmd 用 CRLF（cmd.exe 更稳）；二进制不转换
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.ps1 text eol=lf
+*.png binary
+*.docx binary
+*.patch binary
